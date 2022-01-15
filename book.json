@@ -150,7 +150,8 @@
        "clientSecret": "f84cad2dd856e96eed949144cef9016561df3362",
        "repo": "witnessgpi.github.io",
        "owner": "witnessgpi",
-       "admin": ["witnessgpi"],   
+       "admin": ["witnessgpi"], 
+       "proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token",  
        "distractionFreeMode": false
   	},
 
