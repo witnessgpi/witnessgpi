@@ -5,7 +5,7 @@ require([
     var mygitalk = {};
 
     gitbook.events.bind("start", function(e, config) {
-        mygitalk = config.gitalks || {};
+        mygitalk = config.mygitalk || {};
 
         initMygitalk();
     });
