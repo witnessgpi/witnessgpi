@@ -1,0 +1,221 @@
+{
+    "root":".",
+    "author":"三次元观察者",
+    "title":"见证者 — 性别平等发展历程",
+    "language":"zh-hans",
+    "description":"历史长河中一粒沙，一个过客的观测",
+    "isbn":"000-0-00-000000-0",
+    "direction":"ltr",
+    "gitbook":">=3.2.3",
+    "structure":{
+        "readme":"README.md",
+        "summary":"SUMMARY.md",
+        "glossary":"GLOSSARY.md"
+    },
+
+    "variables":{
+        "blog":"https://witnessgpi.github.io"
+    },
+
+
+    "styles":{
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+
+    "pdf":{
+        "pageNumbers":true,
+        "fontFamily":"Arial",
+        "fontSize":12,
+        "paperSize":"a4",
+        "margin":{
+            "right":62,
+            "left":62,
+            "top":56,
+            "bottom":56
+        }
+    },
+
+
+  "plugins": [
+  	  "theme-lou",
+  	  "-lunr",
+      "-search",
+      "advanced-emoji",
+      "auto-scroll-table",
+      "back-to-top-button",
+      "baidu-tongji",
+      "search-plus",
+      "github",
+      "splitter",
+      "chapter-fold",
+      "expandable-chapters-small",
+      "code",
+      "copy-code-button",
+      "emphasize",
+      "alerts",
+      "flexible-alerts",
+      "-highlight",
+      "-sharing", 
+      "sharing-plus",
+      "tbfed-pagefooter",
+      "prism",
+      "image-captions",
+      "lightbox",
+      "hide-element",
+      "todo",
+      "mygitalk"
+  ],
+  "pluginsConfig": {
+  	
+  	"baidu-tongji": {
+      "token": "55e7dfe47f4dc1c12345678fdfa62565"
+    },
+  	"prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            },
+            "ignore": [
+                "mermaid",
+                "eval-js"
+            ]
+        },
+  	"hide-element": {
+            "elements": [".gitbook-link"]
+        },
+  	"tbfed-pagefooter": {
+            "copyright":"Copyright © WitnessGPI",
+            "modify_label": "更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+  	"lightbox": {
+        "includeJQuery": false,
+        "sameUuid": true,
+        "options": {
+            "resizeDuration": 500,
+            "wrapAround": false
+        }
+    },
+  	"code": {
+        "copyButtons": false
+      },
+    "image-captions": {
+          "caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+          "align": "left"
+      },
+  	"flexible-alerts": {
+        "style": "callout",
+        "comment": {
+          "label": "Comment",
+          "icon": "fa fa-comments",
+          "className": "info"
+        }
+      },
+  	"sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": true,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        },
+  	"github": {
+            "url": "https://github.com/witnessgpi/witnessgpi.github.io"
+        },
+
+     "mygitalk": {
+  	   "clientID": "42eccd4989a61038ecb5",
+       "clientSecret": "f84cad2dd856e96eed949144cef9016561df3362",
+       "repo": "witnessgpi.github.io",
+       "owner": "witnessgpi",
+       "admin": ["witnessgpi"],   
+       "distractionFreeMode": false
+  	},
+
+    "flexible-alerts": {
+            "style": "callout",
+            "comment": {
+                "label": "Comment",
+                "icon": "fa fa-comments",
+                "className": "info"
+            }
+        },
+ 
+     
+    "theme-lou": {
+      "color": "#c24822", 
+      "favicon": "static/WIKIlogo.png", 
+      "logo": "static/WitnessLogo.png", 
+      "appleTouchIconPrecomposed152": "static/apple.png",
+      "forbidCopy": false, 
+      "search-placeholder": "Input Keywords to Search", 
+      "book-summary-title": "Article Directory", 
+      "book-anchor-title": "Search In the Article", 
+      "hide-elements": [".summary .gitbook-link", ".summary .divider"], 
+      "copyright": {
+        "author": "三次元观察者"  
+      }
+    }
+  },
+  "variables": {
+    "themeLou": {
+      "nav": [
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io",  
+          "name": "首页" 
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/categories", 
+          "name": "领域分类"  
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/HotSpot", 
+          "name": "相关热点"  
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/Books", 
+          "name": "相关书籍" 
+        }
+      ],
+      
+      "footer": {
+        "donate": {
+          "button": "捐赠", 
+          "avatar": "https://cdn.jsdelivr.net/gh/YDTRINLEY/AssetsRepo@master/assets-img/headshot.4g7cjdpq4xs0.png", 
+          "nickname": "三次元观察者", 
+          "message": "随意打赏，但不要超过一顿早餐钱喔✨！", 
+          "text": "『 祝您福慧安康 🌹 愿望世界和平 🌹 希望能加点备注(我才能专款专用) 』", 
+          "wxpay": "static/wechat.jpg", 
+          "alipay": "static/alipay.jpg" 
+        },
+        "copyright": false 
+      }
+    }
+  }
+}
