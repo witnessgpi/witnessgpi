@@ -67,7 +67,7 @@
       "lightbox",
       "hide-element",
       "todo",
-      "mygitalk"
+      "gitalks"
   ],
   "pluginsConfig": {
   	
@@ -145,7 +145,7 @@
             "url": "https://github.com/witnessgpi/witnessgpi.github.io"
         },
 
-     "mygitalk": {
+     "gitalks": {
   	   "clientID": "42eccd4989a61038ecb5",
        "clientSecret": "f84cad2dd856e96eed949144cef9016561df3362",
        "repo": "witnessgpi.github.io",
