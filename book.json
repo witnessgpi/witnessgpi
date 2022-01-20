@@ -1,7 +1,7 @@
 {
     "root":".",
     "author":"三次元观察者",
-    "title":"见证者 — 性别平等发展历程",
+    "title":"见证者 — 两性平等发展历程",
     "language":"zh-hans",
     "description":"历史长河中一粒沙，一个过客的观测",
     "isbn":"000-0-00-000000-0",
@@ -14,7 +14,17 @@
     },
 
     "variables":{
-        "blog":"https://witnessgpi.github.io"
+        "blog":"https://witnessgpi.github.io/Books"
+    },
+
+    "links":{
+        "sidebar":{
+            "首页|主站":"https://witnessgpi.github.io",
+            "领域分类":"https://witnessgpi.github.io/categories",
+            "热点事件":"https://witnessgpi.github.io/categories",
+            "相关书籍":"https://witnessgpi.github.io/Books",
+            "相关动漫":"https://witnessgpi.github.io/animation"
+        }
     },
 
 
@@ -67,10 +77,32 @@
       "lightbox",
       "hide-element",
       "todo",
-      "mygitalk"
+      "mygitalk",
+      "edit-link",
+      "sectionx",
+      "theme-api"
   ],
   "pluginsConfig": {
-  	
+  	"theme-api": {
+      "languages": [
+        {
+          "lang": "js",         
+          "name": "简介",  
+          "default": true        
+        },
+        {
+          "lang": "go",
+          "name": "相关资料"
+        }
+      ]
+    },
+    "sectionx": {
+          "tag": "b"
+        },
+  	"edit-link": {
+          "base": "https://github.com/witnessgpi/categories/tree/master",
+          "label": "Edit"
+        },
   	"baidu-tongji": {
       "token": "55e7dfe47f4dc1c12345678fdfa62565"
     },
@@ -144,14 +176,13 @@
   	"github": {
             "url": "https://github.com/witnessgpi/witnessgpi.github.io"
         },
-
+        
      "mygitalk": {
   	   "clientID": "42eccd4989a61038ecb5",
        "clientSecret": "f84cad2dd856e96eed949144cef9016561df3362",
-       "repo": "witnessgpi.github.io",
+       "repo": "categories",
        "owner": "witnessgpi",
-       "admin": ["witnessgpi"], 
-       "proxy": "https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token",  
+       "admin": ["witnessgpi"],   
        "distractionFreeMode": false
   	},
 
@@ -174,7 +205,7 @@
       "search-placeholder": "Input Keywords to Search", 
       "book-summary-title": "Article Directory", 
       "book-anchor-title": "Search In the Article", 
-      "hide-elements": [".summary .gitbook-link", ".summary .divider"], 
+      "hide-elements": [".summary .gitbook-link"], 
       "copyright": {
         "author": "三次元观察者"  
       }
@@ -196,12 +227,17 @@
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/HotSpot", 
-          "name": "相关热点"  
+          "name": "热点事件"  
         },
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/Books", 
           "name": "相关书籍" 
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/animation", 
+          "name": "相关动漫" 
         }
       ],
       
